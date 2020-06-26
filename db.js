@@ -1,7 +1,7 @@
 ///封装db 
 // mysql    
 const mysql = require('mysql');
-function db(aql, value = null) {
+function db(sql, value = null) {
     return new Promise((reslove,reject)=>{
         const conn = mysql.createConnection({
             host: 'localhost',
