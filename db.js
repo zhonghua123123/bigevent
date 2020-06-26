@@ -1,5 +1,5 @@
 ///封装db 
-// mysql
+// mysql    
 const mysql = require('mysql');
 function db(aql, value = null) {
     return new Promise((reslove,reject)=>{
